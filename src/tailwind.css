@@ -35,10 +35,39 @@
     background: linear-gradient(135deg, rgba(26, 84, 144, 0.85) 0%, rgba(15, 35, 60, 0.9) 100%);
 }
 
+.cover-slide {
+    background-image: url("https://sfile.chatglm.cn/images-ppt/03eb86d4162b.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
 .decorative-circle {
     border-radius: 50%;
     opacity: 0.1;
     position: absolute;
+}
+
+.top-circle {
+    height: 500px;
+    right: -150px;
+    top: -200px;
+    width: 500px;
+}
+
+.bottom-circle {
+    background-color: #d4af37;
+    bottom: -120px;
+    height: 350px;
+    left: -100px;
+    width: 350px;
+}
+
+.title-shadow {
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle-shadow {
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .greek-pattern {
