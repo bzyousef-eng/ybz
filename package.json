@@ -1,0 +1,12 @@
+{
+  "name": "ybz",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./styles.css --minify",
+    "check": "npm run build && git diff --exit-code -- styles.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
