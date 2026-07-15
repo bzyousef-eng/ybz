@@ -12,6 +12,12 @@
             .ppt-slide {
                 @apply relative w-[1280px] h-[720px] mx-auto box-border overflow-hidden
             }
+            .key-card {
+                @apply bg-white bg-opacity-10 backdrop-blur-sm rounded-xl p-5 border border-white border-opacity-20
+            }
+            .key-card-header {
+                @apply flex items-center
+            }
         }
     </style>
     <style>body {
@@ -62,11 +68,10 @@ background-position: center">
 height: 500px;
 top: -200px;
 right: -150px"></div>
-        <div class="decorative-circle" style="width: 350px;
+        <div class="decorative-circle bg-accent" style="width: 350px;
 height: 350px;
 bottom: -120px;
-left: -100px;
-background-color: #d4af37"></div>
+left: -100px"></div>
         
         <!-- Main Content -->
         <div class="relative z-10 h-full flex">
@@ -108,8 +113,8 @@ background-color: #d4af37"></div>
             <!-- Left Content (30%) -->
             <div class="w-[30%] pl-5 pr-[70px] flex flex-col justify-center space-y-5">
                 <!-- Key Points -->
-                <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-xl p-5 border border-white border-opacity-20">
-                    <div class="flex items-center mb-3">
+                <div class="key-card">
+                    <div class="key-card-header mb-3">
                         <i class="material-icons text-accent text-xl ml-2">location_on</i>
                         <span class="text-white text-sm font-medium">یونان</span>
                     </div>
@@ -117,8 +122,8 @@ background-color: #d4af37"></div>
                     <div class="text-white text-sm opacity-80">آتن و اسپارت</div>
                 </div>
                 
-                <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-xl p-5 border border-white border-opacity-20">
-                    <div class="flex items-center mb-3">
+                <div class="key-card">
+                    <div class="key-card-header mb-3">
                         <i class="material-icons text-accent text-xl ml-2">account_balance</i>
                         <span class="text-white text-sm font-medium">روم</span>
                     </div>
@@ -126,8 +131,8 @@ background-color: #d4af37"></div>
                     <div class="text-white text-sm opacity-80">امپراتوری قدرتمند</div>
                 </div>
                 
-                <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-xl p-5 border border-white border-opacity-20">
-                    <div class="flex items-center mb-2">
+                <div class="key-card">
+                    <div class="key-card-header mb-2">
                         <i class="material-icons text-accent text-xl ml-2">auto_stories</i>
                         <span class="text-white text-sm font-medium">تمدن</span>
                     </div>
